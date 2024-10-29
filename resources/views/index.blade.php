@@ -15,9 +15,12 @@
 </head>
 <body>
     <div class="containers ">
-        <label class="col-12 text-center mt-2 title" for="">مسابقة نحن هنا اين انتم </label>
+        <label class="col-12 text-center mt-2 title" for="">New Horizons Feud</label>
 
         <div class="line col-12"></div>
+            <a class="btn btn-primary btn-lg" href="{{route('questions.create')}}">Add a question</a>
+        <button>  <label for="" class="label_4 h1">0</label>   </button>
+            <a class="btn btn-primary btn-lg" href="{{route('answers.create')}}">Add answers</a>
         <div class="col-12 text-center">
             <label for="" class=" main_label">Write your question here</label>
         </div>
@@ -27,7 +30,7 @@
             <div class="card_contain me-2 ms-2 ">
                 <div class="row points">
                     <div class="col">
-                        <label for="" class="label_4 h1">1</label>
+                        <label for="" class="label_4 h1">0</label>
                     </div>
                     <div class="col">
                         <!-- 1 -->
@@ -81,7 +84,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <label for="" class="label_4 h1">1</label>
+                        <label for="" class="label_4 h1">0</label>
                     </div>
                 </div>
             </div>
@@ -93,9 +96,6 @@
             <button class="footer_button">Wrong</button>
             <button class="footer_button_2">Award team 2</button>
         </div>
-    </div>
-    <div class="container_footer">
-        <div class="footer ">this game built for new horizons</div>
     </div>
 </body>
 </html>

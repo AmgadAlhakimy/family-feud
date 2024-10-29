@@ -6,7 +6,7 @@ use Livewire\Component;
 
 class Button extends Component
 {
-    public $flipped = true;
+    public $flipped = false;
 
     public function flip()
     {
